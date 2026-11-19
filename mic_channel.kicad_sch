@@ -1410,7 +1410,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:OPA1632D"
+		(symbol "mithril:OPA1632D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1683,7 +1683,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:PGA2505IDBR"
+		(symbol "mithril:PGA2505IDBR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4679,7 +4679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 25.0952 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4771,7 +4771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.38 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -4863,7 +4863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 250.19 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 22.352 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5140,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 165.1 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -5232,7 +5232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 120.9548 0)
 			(hide yes)
 			(show_name no)
@@ -5326,7 +5326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.942 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -5418,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -5510,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -5603,7 +5603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 227.0252 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +5697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 79.502 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -5910,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 175.26 115.8748 0)
 			(hide yes)
 			(show_name no)
@@ -6095,7 +6095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.352 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.47 114.6048 0)
 			(hide yes)
 			(show_name no)
@@ -6554,7 +6554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 237.1852 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6648,7 +6648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.4852 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +7108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 78.74 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7200,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 22.86 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -7293,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +7840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.99 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 250.19 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -8206,7 +8206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 235.2548 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8298,7 +8298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 22.86 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -8482,7 +8482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.4852 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8654,7 +8654,7 @@
 				)
 			)
 		)
-		(property "Value" "XLR3_Ground"
+		(property "Value" "NC3FAAH2"
 			(at 36.83 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,7 +8664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH2_Horizontal"
 			(at 36.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8687,6 +8687,17 @@
 			)
 		)
 		(property "Description" "XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"
+			(at 36.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C368522"
 			(at 36.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8762,7 +8773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9034,7 +9045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.498 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -9127,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 102.5652 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9308,7 +9319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:OPA1632D")
+		(lib_id "mithril:OPA1632D")
 		(at 200.66 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -9339,7 +9350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "mithril:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 200.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9483,7 +9494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -9575,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.25 24.638 90)
 			(hide yes)
 			(show_name no)
@@ -9669,7 +9680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 46.6852 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +9954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.3152 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10131,7 +10142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 43.942 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +10235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 185.7248 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10316,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 90.17 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -10410,7 +10421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 249.8852 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10593,7 +10604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 78.74 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10685,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 114.3 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.88 38.608 90)
 			(hide yes)
 			(show_name no)
@@ -10958,7 +10969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 117.8052 0)
 			(hide yes)
 			(show_name no)
@@ -11050,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.52 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -11144,7 +11155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11205,7 +11216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:PGA2505IDBR")
+		(lib_id "mithril:PGA2505IDBR")
 		(at 201.93 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -11236,7 +11247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SSOP-24_L8.2-W5.3-P0.65-LS7.8-BL"
+		(property "Footprint" "mithril:SSOP-24_L8.2-W5.3-P0.65-LS7.8-BL"
 			(at 201.93 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11700,7 +11711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -11794,7 +11805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 120.3452 58.42 0)
 			(hide yes)
 			(show_name no)

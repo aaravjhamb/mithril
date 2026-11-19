@@ -499,7 +499,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:OPA1632D"
+		(symbol "mithril:OPA1632D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2651,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.61 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -2731,7 +2731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 21.59 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -2888,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -3016,7 +3016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:OPA1632D")
+		(lib_id "mithril:OPA1632D")
 		(at 81.28 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -3047,7 +3047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "mithril:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.45 47.2948 0)
 			(hide yes)
 			(show_name no)
@@ -3257,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.56 147.6248 0)
 			(hide yes)
 			(show_name no)
@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 113.03 110.7948 0)
 			(hide yes)
 			(show_name no)
@@ -3416,7 +3416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 123.698 90)
 			(hide yes)
 			(show_name no)
@@ -3577,7 +3577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3657,7 +3657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 24.638 90)
 			(hide yes)
 			(show_name no)
@@ -3739,7 +3739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3900,7 +3900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4136,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 21.59 127.508 90)
 			(hide yes)
 			(show_name no)
@@ -4216,7 +4216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 113.03 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -4531,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -4613,7 +4613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4693,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -4742,7 +4742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:OPA1632D")
+		(lib_id "mithril:OPA1632D")
 		(at 80.01 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -4772,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "mithril:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 80.01 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -4982,7 +4982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -5062,7 +5062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.56 71.4248 0)
 			(hide yes)
 			(show_name no)
@@ -5132,7 +5132,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "NRJ6HF"
 			(at 28.575 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5142,7 +5142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
 			(at 30.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5224,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -5304,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -5463,7 +5463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 113.03 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -5699,7 +5699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -5779,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.93 147.6248 0)
 			(hide yes)
 			(show_name no)
@@ -5859,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -5939,7 +5939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.93 71.4248 0)
 			(hide yes)
 			(show_name no)
@@ -6021,7 +6021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -6181,7 +6181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 113.03 34.5948 0)
 			(hide yes)
 			(show_name no)
@@ -6418,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.56 152.7048 0)
 			(hide yes)
 			(show_name no)
@@ -6497,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.56 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6659,7 +6659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 128.5748 0)
 			(hide yes)
 			(show_name no)
@@ -7052,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -7122,7 +7122,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "NRJ6HF"
 			(at 28.575 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7132,7 +7132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
 			(at 30.48 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7215,7 +7215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -7294,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.61 103.1748 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.45 123.4948 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 103.1748 0)
 			(hide yes)
 			(show_name no)

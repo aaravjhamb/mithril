@@ -1863,7 +1863,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:CH224D_C3975094"
+		(symbol "mithril:CH224D_C3975094"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2752,6 +2752,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -2993,6 +3108,12 @@
 		(uuid "fb87a979-82ac-4941-b474-5d4e5b813f7e")
 	)
 	(junction
+		(at 83.82 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0444755f-f31a-46c0-b2d3-2a5939b6acfa")
+	)
+	(junction
 		(at 123.19 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3029,6 +3150,12 @@
 		(uuid "5c1aadf5-1656-43a9-b105-639a4277aa39")
 	)
 	(junction
+		(at 171.45 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67203b40-5db2-4a91-95c3-e762da70de5d")
+	)
+	(junction
 		(at 185.42 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3039,6 +3166,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80dda518-727a-42ca-a55d-86b772eb68af")
+	)
+	(junction
+		(at 109.22 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9744a31b-7c97-4239-bc54-fafcc74e36ae")
 	)
 	(junction
 		(at 33.02 100.33)
@@ -3196,6 +3329,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 22.86) (xy 185.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14896e74-8b45-4c95-9d2b-99c8796374c0")
+	)
+	(wire
+		(pts
 			(xy 17.78 43.18) (xy 20.32 43.18)
 		)
 		(stroke
@@ -3216,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 22.86) (xy 184.15 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290f2763-4adf-4964-80be-d1368a323e84")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 99.06 40.64)
 		)
 		(stroke
@@ -3233,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "32a2ee21-61fd-4c9d-b926-ed7fdd92d79e")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 113.03 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3383ef71-4753-4e8d-8545-9fde49023f03")
 	)
 	(wire
 		(pts
@@ -3273,16 +3436,6 @@
 			(type default)
 		)
 		(uuid "4a4f0f2e-c7ac-4f9d-ba82-482bb7b6278e")
-	)
-	(wire
-		(pts
-			(xy 184.15 22.86) (xy 185.42 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac6baae-5bc6-4ce1-876d-c75a906cc034")
 	)
 	(wire
 		(pts
@@ -3336,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 25.4) (xy 113.03 25.4)
+			(xy 107.95 25.4) (xy 109.22 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3636,6 +3789,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 52.07) (xy 83.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b47545-ccc4-4a3a-a84d-ad28365824eb")
+	)
+	(wire
+		(pts
 			(xy 133.35 24.13) (xy 143.51 24.13)
 		)
 		(stroke
@@ -3683,6 +3846,16 @@
 			(type default)
 		)
 		(uuid "ed6d7e6c-0693-44d0-90d6-f04c1c9bd8a7")
+	)
+	(wire
+		(pts
+			(xy 83.82 53.34) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e6fbfd-c8b9-49dd-a0a4-25df6451693c")
 	)
 	(wire
 		(pts
@@ -3809,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -3891,7 +4064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 150.8252 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3940,6 +4113,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "172a0b49-3c83-4aa9-91bc-d1347b1473bb")
+		(property "Reference" "#FLG02"
+			(at 109.22 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 109.2199 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11550431-df89-4f16-abdd-f4376ec493fe")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/6b1b4ec0-71a5-4839-8f55-a9ef5b7dee27"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 29.21 0)
 		(unit 1)
@@ -3972,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 134.3152 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4099,7 +4352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CH224D_C3975094")
+		(lib_id "mithril:CH224D_C3975094")
 		(at 39.37 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -4130,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:QFN-20_L3.0-W3.0-P0.40-BL-EP1.7"
+		(property "Footprint" "mithril:QFN-20_L3.0-W3.0-P0.40-BL-EP1.7"
 			(at 39.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4302,7 +4555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.0952 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4383,7 +4636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 82.2452 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0518S"
 			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4496,6 +4749,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C408347"
+			(at 133.35 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f9f908d4-b79d-4647-b32c-ee36d7d0582c")
 		)
@@ -4513,7 +4777,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 185.42 22.86 0)
+		(at 187.96 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4524,7 +4788,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a4ed1b-0954-44ee-b058-92d063be70c5")
 		(property "Reference" "#PWR017"
-			(at 185.42 26.67 0)
+			(at 187.96 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4799,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 185.42 17.78 0)
+			(at 187.96 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4545,7 +4809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 22.86 0)
+			(at 187.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 22.86 0)
+			(at 187.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4567,7 +4831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 185.42 22.86 0)
+			(at 187.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,7 +4855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 50.8 0)
+		(at 83.82 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4602,7 +4866,7 @@
 		(fields_autoplaced yes)
 		(uuid "34fa55c6-7ccb-44ad-acdd-fd43078ae21d")
 		(property "Reference" "#PWR02"
-			(at 83.82 57.15 0)
+			(at 83.82 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4613,7 +4877,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 55.88 0)
+			(at 83.82 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4623,7 +4887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 50.8 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 50.8 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 50.8 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,7 +5275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -5495,7 +5759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 24.13 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -5733,7 +5997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.7548 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5803,7 +6067,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9uH"
+		(property "Value" "4.7uH"
 			(at 180.34 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5813,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0518S"
 			(at 180.34 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5836,6 +6100,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 180.34 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C408347"
 			(at 180.34 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5895,7 +6170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.1552 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5977,7 +6252,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.798 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6138,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -6220,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 182.5752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6299,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -6613,7 +6888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mithril:USB-C-SMD_HC-TYPE-C-6P-01A"
 			(at 87.63 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6637,6 +6912,17 @@
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
 			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2894893"
+			(at 87.63 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,6 +7119,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 83.82 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e2f5c2-6c66-4260-8152-6be337ee1a75")
+		(property "Reference" "#FLG01"
+			(at 85.725 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 87.63 52.0699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 83.82 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77b9aac5-73e3-46f9-8766-07345133c90c")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/6b1b4ec0-71a5-4839-8f55-a9ef5b7dee27"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 171.45 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa42ac0a-5d6a-4271-af98-28eb283e83f0")
+		(property "Reference" "#FLG04"
+			(at 173.355 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 71.1199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 171.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a6e4cf0-a1f0-4d38-ab0e-45821ee9a240")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/6b1b4ec0-71a5-4839-8f55-a9ef5b7dee27"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 133.35 24.13 0)
 		(unit 1)
@@ -6942,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 109.22 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7025,7 +7471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 172.4152 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7262,7 +7708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 106.68 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -7305,6 +7751,86 @@
 			(project "Mithril"
 				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/6b1b4ec0-71a5-4839-8f55-a9ef5b7dee27"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 185.42 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40f403a-016e-441c-89f3-f2865def49fd")
+		(property "Reference" "#FLG03"
+			(at 185.42 20.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 185.4199 19.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 185.42 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3313990a-56c6-48cc-bc5e-fa5c34be5671")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/6b1b4ec0-71a5-4839-8f55-a9ef5b7dee27"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +8508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 25.4 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -8064,7 +8590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 127.9652 52.07 0)
 			(hide yes)
 			(show_name no)

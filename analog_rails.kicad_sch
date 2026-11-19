@@ -2089,6 +2089,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "Low noise LDO"
 		(exclude_from_sim no)
@@ -2227,6 +2342,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abc45f1-9be8-4275-b56b-cbe9def65e55")
+	)
+	(junction
+		(at 146.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b3d9317-90a2-4bcd-bad5-669cb0bd11dd")
 	)
 	(junction
 		(at 212.09 41.91)
@@ -2758,7 +2879,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 148.59 82.55)
+			(xy 38.1 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581b5e5f-c37f-4a84-977d-b3c25d6a4a50")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 146.05 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2938,13 +3069,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 50.8 48.26)
+			(xy 146.05 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "725879cc-b7f2-43ae-9228-0593d222f8e2")
+		(uuid "6f4e1a92-51c6-4649-8e24-b688c7991930")
 	)
 	(wire
 		(pts
@@ -4336,7 +4467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 242.2652 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4890,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 243.5352 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4972,7 +5103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5129,7 +5260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -5511,7 +5642,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRM120"
+		(property "Value" "MBRA120"
 			(at 105.0925 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5521,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 105.41 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5603,7 +5734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.3052 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6026,7 +6157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 213.0552 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 30.48 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -6410,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH, 2A+"
+		(property "Value" "4.7uH"
 			(at 82.55 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +6551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0518S"
 			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6443,6 +6574,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 82.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C408347"
 			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6502,7 +6644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.2052 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.2852 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6932,7 +7074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.3052 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7089,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -7327,7 +7469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.3552 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7823,7 +7965,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH, 2A+"
+		(property "Value" "4.7uH"
 			(at 41.91 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7833,7 +7975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0518S"
 			(at 41.91 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7856,6 +7998,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 41.91 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C408347"
 			(at 41.91 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +8065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 41.402 90)
 			(hide yes)
 			(show_name no)
@@ -8072,7 +8225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.2652 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8460,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.2252 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8967,7 +9120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.4052 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -9206,7 +9359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.2852 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9334,6 +9487,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c2cc32-a070-4251-bbfa-864dddba65d6")
+		(property "Reference" "#FLG07"
+			(at 149.86 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.8599 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab78d0f7-83ac-47ac-972a-5466587f3f5e")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/629ea179-8f27-4761-aaf0-3c2672f3fdd3"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 55.88 24.13 0)
 		(unit 1)
@@ -9355,7 +9588,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRM120"
+		(property "Value" "MBRA120"
 			(at 55.5625 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9365,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 55.88 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -9444,7 +9677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -9523,7 +9756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 57.4548 0)
 			(hide yes)
 			(show_name no)
@@ -9602,7 +9835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 48.5648 0)
 			(hide yes)
 			(show_name no)
@@ -9681,7 +9914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -9763,7 +9996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 23.8252 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9921,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -10003,7 +10236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.3552 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10212,6 +10445,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb90153e-0779-440e-9eeb-6c71f55ac42b")
+		(property "Reference" "#FLG06"
+			(at 146.05 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.0499 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93f83e8a-8ec4-4864-b848-bf2ae206df9e")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/629ea179-8f27-4761-aaf0-3c2672f3fdd3"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 102.87 0)
 		(unit 1)
@@ -10245,7 +10558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10405,7 +10718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10563,7 +10876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -10644,7 +10957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 214.3252 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10726,7 +11039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.4152 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10806,7 +11119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -11122,7 +11435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.0152 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11171,6 +11484,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db4121b1-f1a4-47cd-8261-4a1e91747825")
+		(property "Reference" "#FLG05"
+			(at 38.1 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.0999 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "292bd5d2-bf64-47ef-bc21-9caea32f4aec")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/629ea179-8f27-4761-aaf0-3c2672f3fdd3"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 17.78 43.18 0)
 		(unit 1)
@@ -11203,7 +11596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 18.7452 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11520,7 +11913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 214.3252 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11834,7 +12227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -12148,7 +12541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 208.28 51.308 90)
 			(hide yes)
 			(show_name no)
