@@ -3462,101 +3462,45 @@
 			)
 		)
 	)
-	(global_label "COLD_X"
-		(shape input)
+	(label "COLD_X"
 		(at 26.67 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "0574f071-5114-4888-ae45-9dfe6dc0d5c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7309 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "HOT_B"
-		(shape input)
+	(label "HOT_B"
 		(at 24.13 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "0e3a97d9-ce63-4149-885e-a8267704c1e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2786 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COLD_P"
-		(shape input)
+	(label "COLD_P"
 		(at 45.72 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "0ef0ee7c-3cff-485c-8ff5-6bea5cd5a795")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5986 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COLD_X"
-		(shape input)
+	(label "COLD_X"
 		(at 36.83 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "135d3d9a-cd04-4442-952e-c7fc0a8d1d52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.8909 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "VOCM_BUS"
 		(shape input)
@@ -3582,101 +3526,45 @@
 			)
 		)
 	)
-	(global_label "HOT_P"
-		(shape input)
+	(label "HOT_P"
 		(at 74.93 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "1ba42960-d3cf-4745-938c-cdbef0e74e7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.0786 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "HOT_P"
-		(shape input)
+	(label "HOT_P"
 		(at 24.13 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "1e7235d6-fa76-4430-9f0a-ab7433f45013")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2786 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COLD_X"
-		(shape input)
+	(label "COLD_X"
 		(at 45.72 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "2037f5e6-5c97-4a35-8b96-1fdac86f9f62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.6591 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COLD_P"
-		(shape input)
+	(label "COLD_P"
 		(at 45.72 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "2557e284-9590-4051-9af6-b3e861f9dec6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5986 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "CHASSIS"
 		(shape input)
@@ -3702,29 +3590,15 @@
 			)
 		)
 	)
-	(global_label "COLD_B"
-		(shape input)
+	(label "COLD_B"
 		(at 45.72 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "2df295a2-8410-4e98-a601-caa2ec81fa88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5986 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "−5V_A"
 		(shape input)
@@ -3870,77 +3744,35 @@
 			)
 		)
 	)
-	(global_label "HOT_P"
-		(shape input)
+	(label "HOT_P"
 		(at 118.11 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "6fd74a13-4a44-4a1f-8174-dc2968d02dee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9614 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "COLD_X"
-		(shape input)
+	(label "COLD_X"
 		(at 91.44 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "73ba4658-4303-42e4-a246-bb738d806f19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.3791 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "HOT_P"
-		(shape input)
+	(label "HOT_P"
 		(at 214.63 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "77709e3d-8156-47d6-b711-d4447a267f77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.4814 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "+5V_A"
 		(shape input)
@@ -3990,29 +3822,15 @@
 			)
 		)
 	)
-	(global_label "HOT_X"
-		(shape input)
+	(label "HOT_X"
 		(at 44.45 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "8583ce06-8996-4fcf-b1b8-99139a8e7b8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2409 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "+5V_PGA"
 		(shape input)
@@ -4062,29 +3880,15 @@
 			)
 		)
 	)
-	(global_label "HOT_X"
-		(shape input)
+	(label "HOT_X"
 		(at 100.33 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "93880a65-de65-492c-99a7-899091cfa2d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.5391 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "VOCM_BUS"
 		(shape input)
@@ -4134,125 +3938,55 @@
 			)
 		)
 	)
-	(global_label "COLD_B"
-		(shape input)
+	(label "COLD_B"
 		(at 45.72 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "afc58437-42fa-46db-aeae-60408cb7da86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5986 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COLD_X"
-		(shape input)
+	(label "COLD_X"
 		(at 100.33 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "b4f6a5a9-f6a7-4f1e-af34-1bd6bb2d0573")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.2691 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "HOT_X"
-		(shape input)
+	(label "HOT_X"
 		(at 24.13 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "b536a2e1-6f26-437f-a87d-bdc113f17e6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.3391 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "HOT_B"
-		(shape input)
+	(label "HOT_B"
 		(at 24.13 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "b69f7847-86dc-4952-955e-c59cb4b6f93b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2786 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "PH_EN"
-		(shape input)
+	(label "PH_EN"
 		(at 189.23 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "b7b37f02-1f40-4863-9978-b12bed332f49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.1972 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "−5V_A"
 		(shape input)
@@ -4278,29 +4012,15 @@
 			)
 		)
 	)
-	(global_label "HOT_X"
-		(shape input)
+	(label "HOT_X"
 		(at 26.67 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "c1f37ade-2812-429e-9990-8462c67cf95c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4609 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "SPI_A_SCK"
 		(shape input)
@@ -4446,77 +4166,35 @@
 			)
 		)
 	)
-	(global_label "HOT_X"
-		(shape input)
+	(label "HOT_X"
 		(at 71.12 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "e12a00d0-b618-4c51-b52e-c39c93bb551e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.3291 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COLD_P"
-		(shape input)
+	(label "COLD_P"
 		(at 214.63 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "e5d6d04a-30d6-4623-893e-c78c4e98648e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.7514 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "HOT_P"
-		(shape input)
+	(label "HOT_P"
 		(at 24.13 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "e6c25adc-d90a-4b17-b124-6519b6cd7afe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2786 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "−5V_A"
 		(shape input)
@@ -4542,53 +4220,25 @@
 			)
 		)
 	)
-	(global_label "COLD_P"
-		(shape input)
+	(label "COLD_P"
 		(at 118.11 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "f14f6d4e-c193-47a0-8a97-d370b160eda5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.2314 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "COLD_P"
-		(shape input)
+	(label "COLD_P"
 		(at 74.93 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "f6e81bc3-7759-43e4-9296-f5a578a88758")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.8086 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(hierarchical_label "SDI_IN"
 		(shape input)
