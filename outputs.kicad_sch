@@ -2446,30 +2446,6 @@
 			)
 		)
 	)
-	(global_label "AUX3_COLD"
-		(shape input)
-		(at 31.75 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "279141d9-b79e-4a8e-97da-dfb2ca981835")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.4395 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MAIN_R_COLD"
 		(shape input)
 		(at 59.69 26.67 0)
@@ -2483,30 +2459,6 @@
 		(uuid "29d227bc-9677-4f30-be6e-8814b91de1d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.2543 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CHASSIS"
-		(shape input)
-		(at 31.75 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c189b7f-60ae-463c-8982-8ba4cf0414bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6576 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,30 +2638,6 @@
 			)
 		)
 	)
-	(global_label "CHASSIS"
-		(shape input)
-		(at 59.69 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f0add51-f2dc-404e-a119-778931d29b84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DAC3_N"
 		(shape input)
 		(at 90.678 18.542 0)
@@ -2830,30 +2758,6 @@
 			)
 		)
 	)
-	(global_label "CHASSIS"
-		(shape input)
-		(at 31.75 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f3ae918-c51f-489c-8f77-a4511da16a1a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6576 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MAIN_R_HOT"
 		(shape input)
 		(at 165.1 45.72 0)
@@ -2867,30 +2771,6 @@
 		(uuid "65f9086d-b4b0-4203-8a99-ad870acb59aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.3943 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AUX2_COLD"
-		(shape input)
-		(at 58.42 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66445fd8-f8ee-4861-a0cb-2adfef955f23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.1095 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,54 +2830,6 @@
 			)
 		)
 	)
-	(global_label "AUX3_HOT"
-		(shape input)
-		(at 31.75 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73659c0f-2307-4fce-904a-784c09fbf738")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.1695 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CHASSIS"
-		(shape input)
-		(at 58.42 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ace5be8-c7bf-45f6-8438-a324924112b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3276 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DAC5_P"
 		(shape input)
 		(at 146.05 20.32 0)
@@ -3011,54 +2843,6 @@
 		(uuid "7e303d37-109f-40ab-ae91-e24a9ba2ba56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.1109 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AUX1_COLD"
-		(shape input)
-		(at 31.75 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "805eb797-d76b-4d36-a11c-77e17947c436")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.4395 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AUX4_HOT"
-		(shape input)
-		(at 59.69 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "856c3f31-2dd2-4de0-9d36-5f51b20db1fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.1095 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3131,30 +2915,6 @@
 		(uuid "9366d0e4-d816-4b98-bed3-701060b66597")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.3314 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AUX1_HOT"
-		(shape input)
-		(at 31.75 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96fd4193-606b-45d0-b554-2dc1ebc2195b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.1695 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,30 +3118,6 @@
 			)
 		)
 	)
-	(global_label "AUX4_COLD"
-		(shape input)
-		(at 59.69 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bcbdd7c8-c3b9-4e4c-b6af-ef1e843ec2f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3795 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MAIN_R_COLD"
 		(shape input)
 		(at 157.48 53.34 0)
@@ -3419,30 +3155,6 @@
 		(uuid "c6d17561-c285-4e48-9d2f-79a8daa98415")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.0528 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AUX2_HOT"
-		(shape input)
-		(at 58.42 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c76b7a9c-2c7f-480b-ba93-b526af3bf497")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.8395 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3930,89 +3642,6 @@
 			(project "Mithril"
 				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
 					(reference "#PWR0385")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 26.67 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "426fa5a4-a0b3-43fb-852a-45661ead822f")
-		(property "Reference" "J18"
-			(at 24.765 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ6HF"
-			(at 24.765 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
-			(at 26.67 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 26.67 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "1372b1d0-67b8-48dc-a26a-96b4e3a641ad")
-		)
-		(pin "R"
-			(uuid "236739a4-6f45-4bb5-8f12-348baa6d1e68")
-		)
-		(pin "S"
-			(uuid "5dbecd1d-97bc-4443-ac23-72ee68abb77a")
-		)
-		(instances
-			(project "Mithril"
-				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5321,89 +4950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 53.34 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2bc616a-777c-42be-8126-a2b85a8c7b56")
-		(property "Reference" "J17"
-			(at 51.435 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ6HF"
-			(at 51.435 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
-			(at 53.34 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 53.34 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "3b135765-01bb-4493-bc98-2ad1c5a3043b")
-		)
-		(pin "R"
-			(uuid "e8a9a7cb-55f6-4d82-adb9-0d5f661654cc")
-		)
-		(pin "S"
-			(uuid "a418853e-5671-4edb-9268-ee3d3f0281cc")
-		)
-		(instances
-			(project "Mithril"
-				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
 		(at 93.98 105.41 0)
@@ -5818,89 +5364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 54.61 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dca2d574-dbcd-411c-b4f3-17dd9972d4b9")
-		(property "Reference" "J19"
-			(at 52.705 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ6HF"
-			(at 52.705 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "d1dd62ca-8e82-44d3-a0c6-690edf2d346c")
-		)
-		(pin "R"
-			(uuid "29a156b5-3042-485b-9110-a21a0f267d16")
-		)
-		(pin "S"
-			(uuid "edd133fc-0e0c-4df4-a017-81bee0007dfd")
-		)
-		(instances
-			(project "Mithril"
-				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 120.65 270)
 		(mirror x)
@@ -6179,89 +5642,6 @@
 			(project "Mithril"
 				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
 					(reference "#PWR0375")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 26.67 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8ae58af-970a-42db-b5ea-5639eb23023d")
-		(property "Reference" "J16"
-			(at 24.765 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRJ6HF"
-			(at 24.765 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
-			(at 26.67 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 26.67 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "f637b1fb-8eb0-4a3f-8a0b-dca050fcac38")
-		)
-		(pin "R"
-			(uuid "77e6c01a-f47d-44b3-b0cb-81b05aa1b3c4")
-		)
-		(pin "S"
-			(uuid "4f0d99a4-5507-446c-b9be-8e4fbed6b512")
-		)
-		(instances
-			(project "Mithril"
-				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -6948,5 +6328,817 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_Ground")
+		(at 40.64 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9475452f-1051-4812-92d7-dce58b7ff32a")
+		(property "Reference" "J16"
+			(at 40.64 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC3MAH"
+			(at 40.64 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
+			(at 40.64 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"
+			(at 40.64 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5154126"
+			(at 40.64 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "54ea458f-26e6-4c5b-be37-17f60cc5f8b7")
+		)
+		(pin "1"
+			(uuid "9259e263-b585-4292-897b-19baf891c61c")
+		)
+		(pin "2"
+			(uuid "7cc8df02-826e-4bb1-8c72-789dd32aaf5e")
+		)
+		(pin "G"
+			(uuid "7eaf7ff2-01a4-4d7e-87ee-dc6f2e7e9359")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 33.02 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a7461b-08fe-4096-b1d0-52d387b6dd39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.1124 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AUX1_HOT"
+		(shape input)
+		(at 48.26 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8164a067-abf4-4286-a7db-7ca67353b678")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.3124 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AUX1_COLD"
+		(shape input)
+		(at 40.64 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c32ae364-deaa-42ea-b803-07ae8f25caee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.9624 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 33.02 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c2f03b2-0981-4028-bec0-ad2c4b3630c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.1124 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 157.48) (xy 38.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43176b0d-557f-4a9a-9e4c-4336ffb4f657")
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_Ground")
+		(at 85.09 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889798d5-7363-4fe1-9c28-dd625c362598")
+		(property "Reference" "J17"
+			(at 85.09 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC3MAH"
+			(at 85.09 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5154126"
+			(at 85.09 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2253d8d4-3eb0-4c8a-afe2-f34fa86fd3cc")
+		)
+		(pin "1"
+			(uuid "3e84bb47-8ebf-4712-9b21-3036ee7d4a33")
+		)
+		(pin "2"
+			(uuid "3bf047ec-b10c-4ff8-8ce1-7c240003bd9c")
+		)
+		(pin "G"
+			(uuid "0c421d30-a2e1-498f-9f57-3ead520b3262")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 77.47 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1e7747b-e997-4512-9e4d-4ef1ed889438")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.5624 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AUX2_HOT"
+		(shape input)
+		(at 92.71 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a033ac9c-0ac4-4fc1-a1c8-06b685283937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.7624 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AUX2_COLD"
+		(shape input)
+		(at 85.09 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7d3178d-8cca-4db2-9414-8d481bf18b22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4124 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 77.47 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f8aeb10-4cd7-494b-a0dd-aa74851ac3b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.5624 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 77.47 157.48) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c126c1-5cfb-4a23-bbc8-8b7f1584ddc4")
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_Ground")
+		(at 129.54 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87476e59-bbc4-47d7-b379-a85a9d338f1a")
+		(property "Reference" "J18"
+			(at 129.54 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC3MAH"
+			(at 129.54 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
+			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"
+			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5154126"
+			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "11abc760-6857-450a-994e-e563def3ba72")
+		)
+		(pin "1"
+			(uuid "e2a66830-015f-4ae5-b37a-f55e30cabe1a")
+		)
+		(pin "2"
+			(uuid "da480b45-6c9f-4141-bc87-970fcaa24660")
+		)
+		(pin "G"
+			(uuid "6bb189da-4a5b-4885-9fed-2234b1388f3c")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 121.92 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34490b57-91d4-43a2-ace2-2be0053f81fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.0124 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AUX3_HOT"
+		(shape input)
+		(at 137.16 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43001894-238a-4086-996b-b0e69b7e082b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.2124 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AUX3_COLD"
+		(shape input)
+		(at 129.54 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "606a43e3-9207-432b-b44d-004810c96a20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8624 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 121.92 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2f9cf30-c772-45d5-ab53-2101fd0e18a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.0124 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 121.92 157.48) (xy 127 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba8b544-8262-41ba-bcb5-14c6373d7112")
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_Ground")
+		(at 173.99 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a70ad3-c014-47fd-8249-ad73d89189cc")
+		(property "Reference" "J19"
+			(at 173.99 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC3MAH"
+			(at 173.99 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5154126"
+			(at 173.99 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7e482fd9-fd39-4b1b-b528-33567847f889")
+		)
+		(pin "1"
+			(uuid "d67b653d-0f32-411a-9263-8dbef3d81a2a")
+		)
+		(pin "2"
+			(uuid "153b7de5-ceaf-4415-92b7-ea7581822a50")
+		)
+		(pin "G"
+			(uuid "f1b608fb-c93e-41d0-a999-699b1c3eb259")
+		)
+		(instances
+			(project "Mithril"
+				(path "/78698a6e-ecbf-46a6-a46f-46f749ec9d34/a911826e-2274-4368-9167-3a4bf9397735"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 166.37 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f2ec3fe-fe5e-43e2-91ea-91252ae1ef19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4624 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AUX4_HOT"
+		(shape input)
+		(at 181.61 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b259a6f-d72e-4273-a45b-1260035739e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.6624 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AUX4_COLD"
+		(shape input)
+		(at 173.99 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3ee084b-b868-47f2-94e4-1b573ca3b578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.3124 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CHASSIS"
+		(shape input)
+		(at 166.37 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "763b105c-4317-402d-a19c-fa3a8b62c06c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4624 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 166.37 157.48) (xy 171.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8572e81-67dd-417b-99d9-f37374e6f08e")
 	)
 )

@@ -1,4 +1,4 @@
-(module easyeda2kicad:RELAY-SMD_G6K-2F-X-XX (layer F.Cu) (tedit 5DC5F6A4)
+(module mithril:RELAY-SMD_G6K-2F-X-XX (layer F.Cu) (tedit 5DC5F6A4)
 	(descr "G6K-2F-Y-DC5")
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -7.510) (layer F.SilkS)
